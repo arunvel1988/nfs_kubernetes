@@ -1,0 +1,15 @@
+kubectl create -f pv.yaml
+
+kubectl get pv
+
+kubectl create -f pvc.yaml
+
+kubectl get pvc
+
+
+kubectl create -f pod.yaml
+
+
+kubect get pod
+
+
