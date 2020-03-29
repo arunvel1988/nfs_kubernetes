@@ -13,4 +13,9 @@ kubectl create -f pod.yaml
 kubect get pod
 apt-get install -y nfs-common (run on everynode)
 
+if cant delete pv
+
+kubectl patch pvc arunapp-nfs -p '{"metadata":{"finalizers":null}}'
+
+
 
