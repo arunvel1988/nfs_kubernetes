@@ -11,5 +11,6 @@ kubectl create -f pod.yaml
 
 
 kubect get pod
+apt-get install -y nfs-common (run on everynode)
 
 
